@@ -12,7 +12,7 @@ namespace EcommerceWebApi.Controllers
             _context = context;
         }
         [HttpGet]
-        [Authorize]
+        
         [Route("api/products")]
         public async Task <IActionResult> GetProducts() 
         {

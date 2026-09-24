@@ -1,4 +1,7 @@
-﻿namespace EcommerceWebApi.Middleware
+﻿using System.Net;
+using System.Text.Json;
+
+namespace EcommerceWebApi.Middleware
 {
     public class ExceptionMiddleware
     {
